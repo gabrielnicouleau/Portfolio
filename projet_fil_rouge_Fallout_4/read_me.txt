@@ -1,0 +1,2 @@
+projet fil rouge en cours au sein de ma formation, il a été mis en pause le temps de recevoir les bases de back nécessaire à son élaboration.
+vous trouverez dans le dossier documents annexes les documents sur lesquels je me base afin de concevoir ce projet.
