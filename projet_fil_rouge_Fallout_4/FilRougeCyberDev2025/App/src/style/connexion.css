@@ -1,0 +1,120 @@
+/* page connexion */
+#connexion, #formulaire{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: black 1px solid;
+    text-align: center;
+    box-shadow: 6px 6px 10px var(--fontColor1);
+    input{
+        margin-bottom: 10px;
+    }
+    button{
+        border-radius: 30px;
+        padding: 10px;
+        box-shadow: 6px 6px 10px var(--fontColor1);
+    }
+    button:hover{
+        background-color: green;
+        color: var(--fontColor2);
+        transform: scale(1.2);
+    }
+    input:hover{
+        transform: scale(1.1);
+    }
+}
+#connexion{
+    color: var(--fontColor2);
+    background-color: var(--mainColor1);
+    button{
+        background-color: var(--mainColor3);
+        color: var(--fontColor1);
+    }
+}
+#formulaire{
+    color: var(--fontColor1);
+    background-color: var(--mainColor3);
+    button{
+        background-color: var(--mainColor1);
+        color: var(--fontColor2);
+    }
+}
+#message{
+    text-align: center;
+    background-color: var(--mainColor1);
+    color: var(--fontColor2);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 5px;
+    border: black 1px solid;
+}
+.darkMode{
+    #connexion{
+        background-color: var(--darkColor1);
+        color: var(--darkColor2);
+        border: 3px var(--darkColor2) solid;
+        box-shadow: var(--fontColor2) 1px 0 10px;
+        button{
+            color: black;
+            background-color: var(--darkColor2);
+            box-shadow: var(--fontColor2) 1px 0 10px;
+            &:hover{
+            background-color: var(--darkColor1);
+            border: 1px solid var(--darkColor2);
+            color: var(--darkColor2);
+            }
+        }
+    }
+    #formulaire{
+        background-color: var(--darkColor2);
+        color: var(--darkColor1);
+        border: 3px var(--darkColor1) solid;
+        box-shadow: var(--fontColor2) 1px 0 10px;
+        button{
+            color: var(--darkColor2);
+            background-color: var(--darkColor1);
+            box-shadow: var(--fontColor1) 2px 0 10px;
+            &:hover{
+            background-color: var(--darkColor2);
+            border: 1px solid var(--darkColor1);
+            color: var(--darkColor1);
+            }
+        }
+    }
+    #message{
+        background-color: var(--darkColor1);
+        color: var(--darkColor2);
+        border: 3px var(--darkColor2) solid;
+        box-shadow: var(--fontColor2) 1px 0 10px;
+    }
+}
+@media only screen and (max-width: 800px){
+    #message{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #connexion, #formulaire{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #message{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (max-width: 400px){
+    #connexion, #formulaire{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #message{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
